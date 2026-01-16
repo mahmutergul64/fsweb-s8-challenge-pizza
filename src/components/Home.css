@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap');
+
+.home-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.hero-section {
+    background-color: #CE2829; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.hero-logo {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.firsat-text {
+    font-family: 'Satisfy', cursive; 
+    color: #FDC913; 
+    font-size: 2rem;
+    margin-bottom: -1rem; 
+}
+
+.hero-text h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5rem;
+    font-weight: 300; 
+    line-height: 1;
+    margin: 1rem 0 2rem 0;
+    letter-spacing: 2px;
+}
+
+.cta-btn {
+    background-color: #FDC913;
+    color: #292929;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: white;
+    color: #CE2829;
+    transform: scale(1.05); 
+}
+
+
+.hero-section {
+    background-color: #CE2829;
+    height: 100vh;
+    min-height: 700px;
+    position: relative;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center; 
+    
+    
+    align-items: flex-start; 
+    
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10; 
+    
+    
+    margin-top: 1vh; 
+}
+
+
+.hero-pizza {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;  
+    max-width: unset;
+    height: auto;
+    z-index: 1;
+}
+
+.category-menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 2rem; 
+    padding: 1.5rem 0;
+    background-color: white; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+    margin-bottom: 2rem; 
+    overflow-x: auto; 
+}
+
+.category-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #555;
+    white-space: nowrap; 
+}
+
+.category-item img {
+    height: 35px; 
+    width: auto;
+}
+
+
+.category-item:hover, .category-item.active {
+    background-color: #292929; 
+    color: white; 
+}
+
+
+.menu-products {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #fafafa;
+}
+
+.menu-subtitle {
+    font-family: 'Satisfy', cursive;
+    color: #CE2829;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.menu-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    color: #292929;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.product-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.product-meta .price {
+    font-weight: 700;
+    color: #292929;
+    font-size: 1.1rem;
+}
+
+
+.main-footer {
+    background-color: #1a1a1a; 
+    color: white;
+    padding-top: 4rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem 4rem 1rem;
+}
+
+.footer-contact h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.footer-menu h3, .footer-insta h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-menu p {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.insta-grid img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.footer-copyright {
+    border-top: 1px solid #333;
+    padding: 2rem;
+    text-align: center; 
+    font-size: 0.8rem;
+    color: #666;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;        
+    width: 100%;                
+    max-width: 1000px;          
+    margin: 0 auto;             
+}
+
+
+.campaigns-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.campaign-card {
+    border-radius: 12px;
+    padding: 2rem;
+    color: white;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-lezzetus {
+    background-color: #CE2829; 
+    background-image: url('/images/iteration-2-images/cta/kart-1.png');  
+}
+
+.card-hackathlon {
+    background-color: #292929;  
+    background-image: url('/images/iteration-2-images/cta/kart-2.png');
+}
+
+.card-kurye {
+    grid-column: span 2; 
+    background-color: #f8f8f8;
+    color: #333; 
+    background-image: url('/images/iteration-2-images/cta/kart-3.png');
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 4rem;
+}
+
+.kurye-content {
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+.red-text { color: #CE2829; }
+
+.order-btn-small {
+    background: white;
+    color: #CE2829;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.card-info {
+    position: relative;
+    z-index: 10;
+    max-width: 60%;
+    
+    
+    display: flex;           
+    flex-direction: column;  
+    align-items: flex-start; 
+    text-align: left;        
+}
+
+
+.menu-products {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #fafafa;
+}
+
+.menu-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #292929;
+    margin-bottom: 2rem;
+}
+
+.menu-subtitle {
+    font-family: 'Satisfy', cursive;
+    color: #CE2829;
+    font-size: 1.5rem;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.pill {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.pill.active {
+    background: #292929;
+    color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: left;
+}
+.product-card img { width: 100%; border-radius: 8px; margin-bottom: 1rem; }
+.product-footer { display: flex; justify-content: space-between; font-weight: bold; color: #555; }
+
+
+.main-footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding-top: 4rem;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    padding: 0 1rem 3rem 1rem;
+}
+.footer-col h2, .footer-col h3 { margin-bottom: 1.5rem; }
+.footer-col p { margin-bottom: 0.8rem; opacity: 0.8; font-size: 0.9rem; }
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+.insta-grid img { width: 70px; height: 70px; object-fit: cover; }
+.copyright {
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero-pizza {
+        
+        width: 450vw !important; 
+        
+        
+        min-width: unset;
+        
+        
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -20px; 
+    }
+
+    
+    .hero-content {
+        margin-top: 0; 
+        padding-top: 2rem; 
+    }
+    
+    .hero-text h1 {
+        font-size: 4.5rem; 
+    }
+    .category-menu {
+        justify-content: flex-start; 
+        padding-left: 1rem; 
+    }
+    .campaigns-container { grid-template-columns: 1fr; } 
+    .card-kurye { grid-column: span 1; padding: 1rem; flex-direction: column; text-align: center; height: auto; gap: 1rem; }
+    .product-grid { grid-template-columns: 1fr; } 
+    .footer-content { flex-direction: column; gap: 3rem; text-align: center; }
+    .insta-grid { justify-content: center; }
+    .menu-grid {
+        grid-template-columns: 1fr; 
+        padding: 0 2rem;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .category-menu {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 1.5rem; 
+        padding: 2rem; 
+        
+        justify-items: start; 
+        overflow-x: hidden; 
+        height: auto;
+        
+        
+        flex-direction: row; 
+        flex-wrap: wrap;
+    }
+
+    .category-item {
+        width: 100%; 
+        justify-content: flex-start; 
+        padding: 5px; 
+        background-color: white;
+        box-shadow: none; 
+        border-radius: 10px;
+    }
+    
+    .category-item span {
+        font-size: 1rem; 
+        font-weight: 500;
+    }
+
+    .campaigns-container {
+        grid-template-columns: 1fr; 
+        gap: 1.5rem; 
+        padding: 0 1.5rem;
+    }
+
+    
+    .campaign-card {
+        height: 350px; 
+        min-height: unset; 
+    }
+
+    
+    .card-lezzetus .card-img {
+        width: 65%; 
+        right: -40px; 
+        opacity: 1; 
+        top: 0;
+    }
+
+    .card-hackathlon .card-img {
+        width: 60%;
+        right: -20px;
+        opacity: 1; 
+    }
+
+    
+    .card-kurye {
+        grid-column: span 1; 
+        height: 350px !important; 
+        flex-direction: row; 
+        align-items: center;
+        padding: 2rem;
+        text-align: left; 
+    }
+
+    
+    .card-kurye .card-info {
+        max-width: 60%; 
+        z-index: 10;
+    }
+
+    
+    .card-img-kurye {
+        position: absolute;
+        right: -30px; 
+        bottom: 20px;
+        height: 65%; 
+        width: auto;
+    }
+}
+
