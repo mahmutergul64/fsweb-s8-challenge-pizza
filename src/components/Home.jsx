@@ -6,8 +6,6 @@ export default function Home() {
   return (
     <div className="home-container">
       <header className="hero-section">
-        
-        
         <div className="hero-content">
           <img 
             src="/images/iteration-1-images/logo.svg" 
@@ -22,19 +20,12 @@ export default function Home() {
             <button className="cta-btn">ACIKTIM</button>
           </Link>
         </div> 
-        
-
-
-        
         <img 
             src="/images/iteration-1-images/home-banner.png" 
             alt="Pizza Banner" 
             className="hero-pizza" 
         />
-
       </header>
-
-      
       <nav className="category-menu">
         <div className="category-item">
           <img src="/images/iteration-2-images/icons/1.svg" alt="Kore" />
@@ -79,7 +70,6 @@ export default function Home() {
             <h2>Hackathlon<br />Burger Menü</h2>
             <button className="order-btn-small">SİPARİŞ VER</button>
           </div>
-          <img src="/images/iteration-2-images/pictures/food-3.png" alt="Burger" className="card-img" />
         </div>
 
         
@@ -96,18 +86,12 @@ export default function Home() {
         </div>
 
       </section>
-
-      
-      
-      
-      
       <section className="menu-products">
         <p className="menu-subtitle">en çok paketlenen menüler</p>
         <h2 className="menu-title">Acıktıran Kodlara Doyuran Lezzetler</h2>
 
         <div className="menu-grid">
-            
-            
+
             <div className="product-card">
                 <img src="/images/iteration-2-images/pictures/food-1.png" alt="Terminal Pizza" />
                 <div className="product-info">
@@ -119,8 +103,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
-            
             <div className="product-card">
                 <img src="/images/iteration-2-images/pictures/food-2.png" alt="Position Absolute" />
                 <div className="product-info">
@@ -132,8 +114,6 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-
-            
             <div className="product-card">
                 <img src="/images/iteration-2-images/pictures/food-3.png" alt="Burger" />
                 <div className="product-info">
@@ -148,27 +128,24 @@ export default function Home() {
 
         </div>
       </section>
-
-      
       <footer className="main-footer">
         <div className="footer-container">
             
             <div className="footer-contact">
                 <h2>Teknolojik<br />Yemekler</h2>
                 <div className="contact-item">
-                    <img src="/images/iteration-2-images/footer/icon-1.png" alt="" />
+                    <img src="images\iteration-2-images\footer\icons\icon-1.png" alt="" />
                     <p>341 Londonderry Road, Istanbul Türkiye</p>
                 </div>
                 <div className="contact-item">
-                    <img src="/images/iteration-2-images/footer/icon-2.png" alt="" />
+                    <img src="images\iteration-2-images\footer\icons\icon-2.png" alt="" />
                     <p>aciktim@teknolojikyemekler.com</p>
                 </div>
                 <div className="contact-item">
-                    <img src="/images/iteration-2-images/footer/icon-3.png" alt="" />
+                    <img src="images\iteration-2-images\footer\icons\icon-3.png" alt="" />
                     <p>+90 216 123 45 67</p>
                 </div>
             </div>
-
             <div className="footer-menu">
                 <h3>Hot Menu</h3>
                 <p>Terminal Pizza</p>
@@ -178,7 +155,6 @@ export default function Home() {
                 <p>Testler Geçti Mutlu Burger</p>
                 <p>Position Absolute Acı Burger</p>
             </div>
-
             <div className="footer-insta">
                 <h3>Instagram</h3>
                 <div className="insta-grid">
@@ -190,7 +166,6 @@ export default function Home() {
                     <img src="/images/iteration-2-images/footer/insta/li-5.png" alt="" />
                 </div>
             </div>
-
         </div>
         <div className="footer-copyright">
             <p>© 2023 Teknolojik Yemekler.</p>

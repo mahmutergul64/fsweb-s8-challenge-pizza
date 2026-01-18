@@ -22,7 +22,7 @@ describe('Pizza Sipariş Formu Testleri', () => {
 
   it('Formu doldurup siparişi başarıyla göndermeli', () => {
     
-    cy.get('input[name="isim"]').type('Otomasyon Canavarı');
+    cy.get('input[name="isim"]').type('Enes');
 
     cy.get('input[type="radio"]').first().check({force: true}); 
 

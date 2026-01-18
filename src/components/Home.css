@@ -160,9 +160,10 @@
 
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    max-width: 1000px;
+    width: 95%;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -173,14 +174,20 @@
     text-align: left;
 }
 
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
 .product-card img {
     width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
 }
 
 .product-info h3 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
@@ -197,7 +204,6 @@
     color: #292929;
     font-size: 1.1rem;
 }
-
 
 .main-footer {
     background-color: #1a1a1a; 
@@ -269,17 +275,17 @@
 .campaigns-container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    gap: 1.5rem;
-    max-width: 1000px;
-    margin: 3rem auto;
+    gap: 2rem;
+    max-width: 1250px;
+    margin: 4rem auto;
     padding: 0 1rem;
 }
 
 .campaign-card {
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 2rem;
     color: white;
-    height: 300px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -299,13 +305,25 @@
 .card-kurye {
     grid-column: span 2; 
     background-color: #f8f8f8;
-    color: #333; 
-    background-image: url('/images/iteration-2-images/cta/kart-3.png');
-    height: 200px;
+    color: #333;    
+    height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between; 
     padding: 0 4rem;
+    
+}
+
+.card-img-kurye {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 1;
+    object-position: top;
+    object-position: center;
 }
 
 .kurye-content {
@@ -323,14 +341,13 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 1rem;
+    margin-left: 0;
 }
 
 .card-info {
     position: relative;
     z-index: 10;
     max-width: 60%;
-    
-    
     display: flex;           
     flex-direction: column;  
     align-items: flex-start; 
@@ -345,7 +362,7 @@
 }
 
 .menu-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
     color: #292929;
     margin-bottom: 2rem;
@@ -354,7 +371,7 @@
 .menu-subtitle {
     font-family: 'Satisfy', cursive;
     color: #CE2829;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .nav-pills {
@@ -379,24 +396,6 @@
     background: #292929;
     color: white;
 }
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.product-card {
-    background: white;
-    padding: 1rem;
-    border-radius: 12px;
-    text-align: left;
-}
-.product-card img { width: 100%; border-radius: 8px; margin-bottom: 1rem; }
-.product-footer { display: flex; justify-content: space-between; font-weight: bold; color: #555; }
-
 
 .main-footer {
     background-color: #1a1a1a;

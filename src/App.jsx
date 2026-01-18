@@ -12,11 +12,9 @@ function App() {
         <Route exact path="/">
             <Home />
         </Route>
-
         <Route path="/pizza">
           <OrderForm />
         </Route>
-
         <Route path="/success">
           <Success />
         </Route>
