@@ -82,7 +82,7 @@ export default function Home() {
                 <button className="order-btn-small">SİPARİŞ VER</button>
             </div>
             
-            <img src="/images\iteration-2-images\cta\kart-3.png" alt="Kurye" className="card-img-kurye" />
+            <img src="/images/iteration-2-images/cta/kart-3.png" alt="Kurye" className="card-img-kurye" />
         </div>
 
       </section>
@@ -134,15 +134,15 @@ export default function Home() {
             <div className="footer-contact">
                 <h2>Teknolojik<br />Yemekler</h2>
                 <div className="contact-item">
-                    <img src="images\iteration-2-images\footer\icons\icon-1.png" alt="" />
+                    <img src="images/iteration-2-images/footer/icons/icon-1.png" alt="" />
                     <p>341 Londonderry Road, Istanbul Türkiye</p>
                 </div>
                 <div className="contact-item">
-                    <img src="images\iteration-2-images\footer\icons\icon-2.png" alt="" />
+                    <img src="images/iteration-2-images/footer/icons/icon-2.png" alt="" />
                     <p>aciktim@teknolojikyemekler.com</p>
                 </div>
                 <div className="contact-item">
-                    <img src="images\iteration-2-images\footer\icons\icon-3.png" alt="" />
+                    <img src="images/iteration-2-images/footer/icons/icon-3.png" alt="" />
                     <p>+90 216 123 45 67</p>
                 </div>
             </div>
